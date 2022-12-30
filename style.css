@@ -10,7 +10,7 @@ body {
   color: white;
 }
 
-.restaurant-header {
+.home {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -47,7 +47,7 @@ button:hover {
 }
 
 
-.restaurant-description {
+.home-description {
   font-size: 1.4rem;
   text-shadow: 1px 2px #000000;
 }
