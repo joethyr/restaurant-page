@@ -51,7 +51,7 @@ ul * {
   margin: auto;
 }
 
-.navbar-link {
+.navbar > li {
   float: right;
   color: white;
   text-decoration: none;
@@ -79,6 +79,6 @@ h1 {
   background-color: #314722;
 }
 
-.navbar-link:hover {
+.navbar > li:hover {
   background-color: #213116;
 }
