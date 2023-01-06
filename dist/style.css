@@ -25,7 +25,7 @@ body {
   background-color: #314722c2;
 }
 
-h2 {
+.home > h2 {
   font-size: 2rem;
   letter-spacing: 3px;
   text-shadow: 3px 4px #000000;
@@ -90,13 +90,23 @@ h1 {
 }
 
 /* MENU */
+
 .menu {
+  margin-top: 5rem;
+}
+
+.menu-title > h2 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-shadow: 3px 4px #000000;
+}
+
+.menu-columns {
   display: grid;
   max-width: 70%;
   margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   grid-gap: 1rem;
-  margin-top: 5rem;
   letter-spacing: 2px;
 }
 
@@ -107,15 +117,21 @@ h1 {
   font-size: 1rem;
 }
 
-.menu > .column {
+.menu-columns > .column {
   border-radius: 10px;
   background-color: #314722c2;
   text-align: left;
   padding: 0 10px;
 }
 
+.menu-columns > .column > h3 {
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  text-shadow: 3px 4px #000000;
+}
 
-.menu > .column:first-child {
+
+.menu-columns > .column:first-child {
   grid-row: 1 / 3;
 }
 
