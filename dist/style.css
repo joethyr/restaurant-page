@@ -103,7 +103,7 @@ h1 {
 
 .menu-columns {
   display: grid;
-  max-width: 70%;
+  max-width: 1200px;
   margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   grid-gap: 1rem;
@@ -137,4 +137,31 @@ h1 {
 
 .column > div > span:first-child {
 float: right;
+}
+
+/* CONTACT */
+
+.contact {
+  margin-top: 5rem;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-shadow: 3px 4px #000000;
+  margin: 2rem;
+}
+.contact-container {
+  background-color: #314722c2;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  
+}
+
+.contact-map {
+  max-width: 80%;
+  height: auto;
+  padding-top: 1rem;
 }
