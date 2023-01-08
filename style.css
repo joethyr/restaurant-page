@@ -17,6 +17,7 @@ body {
 /* HOME */
 
 .home {
+  display: block;
   max-width: 700px;
   margin: auto;
   margin-top: 15rem;
@@ -92,10 +93,11 @@ h1 {
 /* MENU */
 
 .menu {
+  display: none;
   margin-top: 5rem;
 }
 
-.menu-title > h2 {
+.menu > h2 {
   font-size: 2.5rem;
   letter-spacing: 3px;
   text-shadow: 3px 4px #000000;
@@ -142,6 +144,7 @@ float: right;
 /* CONTACT */
 
 .contact {
+  display: none;
   margin-top: 5rem;
 }
 
