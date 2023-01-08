@@ -2,9 +2,8 @@ function createMenu() {
   const menu = document.createElement("div");
   menu.classList.add("menu");
 
-  menu.innerHTML = `
-  <div class="menu-title">
-  <h2>MENU</h2>
+  menu.innerHTML =
+    `<h2>MENU</h2>
   </div>
   <div class="menu-columns">
   <div class="column">
@@ -60,8 +59,7 @@ function createMenu() {
       <span>Soda</span>
       <p>Set tempor purus pellentesque. Sed cursus risus et nibh.</p>
     </div>
-  </div>
-</div>`;
+  </div>`;
 
   return menu
 }
